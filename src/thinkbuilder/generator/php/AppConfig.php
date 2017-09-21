@@ -15,7 +15,7 @@ class AppConfig extends Generator
         $data = $this->params['data'];
         $content = $this->params['template'];
         $tags = [
-            'NAMESPACE' => $data['namespace'],
+            /*'NAMESPACE' => $data['namespace'],*/
         ];
 
         $content = TemplateHelper::parseTemplateTags($tags, $content);
